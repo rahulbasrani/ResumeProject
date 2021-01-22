@@ -35,7 +35,7 @@ const Review=({formData,navigation})=>{
         
         <Container maxWidth='sm'>
             <h3>Review</h3>
-            <RenderAccordion summary="Basic" go={go} details={[
+            <RenderAccordion summary="Names" go={go} details={[
                 {"First Name":firstName},
                 {'Last Name':lastName},
                 
