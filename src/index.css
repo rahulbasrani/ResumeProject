@@ -1,3 +1,8 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +10,97 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background:#f1f1f1;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.App{
+  background:#f1f1f1;
+
+}
+label{
+  font-size: 2.5vw;
+}
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.row-content {
+  margin: 20px 5px 20px 5px;
+}
+
+.form-group{
+  margin-bottom: 10px;
+}
+
+#profileimg{
+  max-width: 80%;
+  border-radius: 5%;
+}
+
+.flexit{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fontinc{
+  font-size: large;
+}
+
+.editbtn{
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header{
+  padding:2rem;
+  background-color: #282c34;
+  width:100%;
+  text-align: center;
+  text-shadow: 0.2px 0.4px white;
+  color:hotpink;
 }
